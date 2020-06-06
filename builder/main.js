@@ -3,7 +3,6 @@
  * Строитель нужен, если объект может существовать в разных вариациях или процесс инстанцирования состоит из нескольких шагов
  */
 
-
 class Burger {
     constructor(builder) {
         this.size = builder.size;
@@ -11,6 +10,7 @@ class Burger {
         this.pepperoni = builder.peppetoni || false;
         this.lettuce = builder.lettuce || false;
         this.tomato = builder.tomato || false;
+        this.katleta = builder.katleta || true;
     }
 }
 
