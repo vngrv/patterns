@@ -1,16 +1,14 @@
 <?php
 
 class Singleton {
-
     public $data;
-
     private static $instance = null;
 
     private function __construct() {
         $this->data = rand();
     }
 
-    private static function getInstance() {
+    public static function getInstance() {
         if(is_null(self::$instance)) {
             self::$instance = new self;
         }
@@ -19,12 +17,11 @@ class Singleton {
     }
 }
 
-// usage 
 
-$s1 = Singleton::getIntance();
-$s2 = Singleton::getIntance();
+$s1 = Singleton::getInstance();
+$s2 = Singleton::getInstance();
 
-// $s1 === $s2
-
+var_dump($s1);
+var_dump($s2);
 
 

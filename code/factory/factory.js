@@ -45,3 +45,5 @@ let alligatorProps = {
 alligator.tail  = new ReptilePartFactory('tail',  alligatorProps);
 alligator.torso = new ReptilePartFactory('torso', alligatorProps);
 alligator.head  = new ReptilePartFactory('head',  alligatorProps);
+
+console.log(alligator);
