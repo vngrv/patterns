@@ -1,8 +1,16 @@
-/**
- * Шаблон позволяет создавать различные варианты объекта без загрязнения конструктора лишним кодом.
- * Строитель нужен, если объект может существовать в разных вариациях или процесс инстанцирования состоит из нескольких шагов
- */
+# Строитель (Builder)
 
+Шаблон позволяет создавать различные варианты объекта без загрязнения конструктора лишним кодом.
+
+## Когда стоит использовать?
+
+Строитель нужен, если объект может существовать в разных вариациях или процесс инстанцирования состоит из нескольких шагов
+
+## Применение
+
+Коннектер к базе данных с разной вариативность входных параметров (таймауты)
+
+```js
 class Burger {
     constructor(builder) {
         this.size = builder.size;
@@ -13,7 +21,8 @@ class Burger {
         this.katleta = builder.katleta || true;
     }
 }
-
+```
+```js
 class BurgerBuilder {
     constructor(size) {
         this.size = size;
@@ -43,7 +52,9 @@ class BurgerBuilder {
         return this;
     }
 }
-
+```
+## Usage
+```js
 const burger = (new BurgerBuilder(14))
     .addPepperoni()
     .addCheeze()
@@ -51,13 +62,17 @@ const burger = (new BurgerBuilder(14))
     .addTomato()
     .build()
 
-console.log(burger)
-/**
- * Burger {
- *  size: 14,
- *  cheeze: true,
- *  pepperoni: false,
- *  lettuce: true,
- *  tomato: true
- *  }
- */
+console.log(burger);
+```
+
+## Result
+```js
+Burger {
+  size: 14,
+  cheeze: true,
+  pepperoni: false,
+  lettuce: true,
+  tomato: true,
+  katleta: true
+}
+```
