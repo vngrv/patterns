@@ -21,14 +21,14 @@ __паттерн__ — инженерный чертёж, на котором н
 ## Checklist
 
 Creational
-~~1. Abstract factory~~
-~~2. Factory~~
-~~3. Builder~~
-~~4. Prototype~~
-~~5. Singleton~~
+1. ~~Abstract factory~~
+2. ~~Factory~~
+3. ~~Builder~~
+4. ~~Prototype~~
+5. ~~Singleton~~
 
 Structural
-~~1. Adapter~~
+1. ~~Adapter~~
 2. Bridge
 3. Composite
 4. Decorator
