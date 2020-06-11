@@ -9,12 +9,12 @@
 Алгоритм - необходимые действия, для получения желаемого результата. 
 Паттерн - описание решения проблемы, устоявшимся способом. Более похожее на архитектурные задачи
 
-Если взять описание с **(Refactoring.guru)[https://refactoring.guru/ru/design-patterns/what-is-pattern]**
+Если взять описание с **[Refactoring.guru](https://refactoring.guru/ru/design-patterns/what-is-pattern)**
 __Алгоритм__ — это кулинарный рецепт с чёткими шагами, а
 __паттерн__ — инженерный чертёж, на котором нарисовано решение, но не конкретные шаги его реализации.
 
 Становится более понятней уровень абстракции. 
 
 ## Что и где?
-1. **(код)[https://github.com/vngrv/patterns/tree/master/code]**
-2. **(описание)[https://github.com/vngrv/patterns/tree/master/doc]**
+1. **[код](https://github.com/vngrv/patterns/tree/master/code)**
+2. **[описание](https://github.com/vngrv/patterns/tree/master/doc)**
