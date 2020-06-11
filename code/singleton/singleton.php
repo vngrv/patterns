@@ -2,6 +2,7 @@
 
 class Singleton {
     public $data;
+    
     private static $instance = null;
 
     private function __construct() {
