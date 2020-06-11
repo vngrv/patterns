@@ -21,7 +21,7 @@ __паттерн__ — инженерный чертёж, на котором н
 ## Checklist
 
 Creational
-~~1. Abstract factory ~~
+~~1. Abstract factory~~
 ~~2. Factory~~
 ~~3. Builder~~
 ~~4. Prototype~~
