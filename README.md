@@ -29,12 +29,12 @@ Creational
 
 Structural
 1. ~~Adapter~~
-2. Bridge
+2. ~~Bridge~~
 3. Composite
 4. Decorator
-5. Facade
+5. ~~Facade~~
 6. Flyweight
-7. Proxy
+7. ~~Proxy~~
 
 Behavioral
 1. Chain of Responsibility
